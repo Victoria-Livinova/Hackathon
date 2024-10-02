@@ -40,5 +40,5 @@ plt.show()
 
 y_pred = clf.predict(X_test)
 
-print('\nClassification Report:')
+print('Classification Report:')
 print(classification_report(y_test, y_pred, labels=np.unique(y_pred)))
